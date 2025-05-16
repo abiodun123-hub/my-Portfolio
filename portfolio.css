@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;     
+}
+
+
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}   
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration:solid-+;
+    
+}    
+
+nav a:hover {
+    text-decoration: underline;
+    color: #aaa;
+}
+
+section {
+    padding: 20px;
+}       
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.project-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
